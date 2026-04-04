@@ -27,7 +27,7 @@ export MIX_ENV=prod
 export PHX_SERVER=true
 export PHX_HOST=\"\${PHX_HOST:-testing.bantculture.com}\"
 export PORT=\"\${PORT:-4001}\"
-export DATABASE_URL=\"\${DATABASE_URL:-ecto://eirinchan:eirinchan@localhost/eirinchan_dev}\"
+export DATABASE_URL=\"\${DATABASE_URL:-ecto://localhost/eirinchan_dev}\"
 export SECRET_KEY_BASE=\"\$(< '$SECRET_FILE')\"
 mix phx.server
 "
