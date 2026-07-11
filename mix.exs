@@ -45,7 +45,7 @@ defmodule Eirinchan.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:locus, "~> 2.3.12"},
-      {:dns_cluster, "~> 0.1.1"},
+      {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.11.1"},
       # hpax 1.0.4 requires Elixir 1.15; production intentionally remains on 1.14.
       {:hpax, "1.0.3", override: true},
