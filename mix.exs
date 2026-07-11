@@ -35,7 +35,7 @@ defmodule Eirinchan.MixProject do
       {:phoenix, "~> 1.7.22"},
       {:plug, "~> 1.19.5"},
       {:phoenix_ecto, "~> 4.4.0"},
-      {:ecto_sql, "~> 3.10.1"},
+      {:ecto_sql, "~> 3.11.3"},
       {:postgrex, "~> 0.17.5"},
       {:phoenix_html, "~> 4.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
