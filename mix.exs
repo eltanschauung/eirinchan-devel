@@ -33,7 +33,7 @@ defmodule Eirinchan.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.7.22"},
-      {:plug, "~> 1.19.5"},
+      {:plug, "~> 1.20.3"},
       {:phoenix_ecto, "~> 4.4.0"},
       {:ecto_sql, "~> 3.14"},
       {:postgrex, "~> 0.22.3"},
